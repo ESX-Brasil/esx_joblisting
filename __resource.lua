@@ -11,10 +11,13 @@ server_scripts {
 	'locales/de.lua',
 	'locales/br.lua',
 	'locales/en.lua',
+	'locales/fi.lua',
 	'locales/fr.lua',
 	'locales/es.lua',
 	'locales/sv.lua',
-	'server/esx_joblisting_sv.lua'
+	'locales/pl.lua',
+	'locales/cs.lua',
+	'server/main.lua'
 }
 
 client_scripts {
@@ -23,8 +26,13 @@ client_scripts {
 	'locales/de.lua',
 	'locales/br.lua',
 	'locales/en.lua',
+	'locales/fi.lua',
 	'locales/fr.lua',
 	'locales/es.lua',
 	'locales/sv.lua',
-	'client/esx_joblisting_cl.lua'
+	'locales/pl.lua',
+	'locales/cs.lua',
+	'client/main.lua'
 }
+
+dependency 'es_extended'
