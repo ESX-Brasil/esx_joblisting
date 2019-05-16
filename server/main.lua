@@ -1,3 +1,5 @@
+-- Esx Brasil --
+
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
@@ -31,7 +33,7 @@ AddEventHandler('esx_joblisting:setJob', function(job)
 		else
 			print(('esx_joblisting: %s attempted to set a whitelisted job! (lua injector)'):format(xPlayer.identifier))
 		end
-		
+
 	end)
 
 end)
